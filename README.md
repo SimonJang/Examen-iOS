@@ -9,7 +9,7 @@
 <ul>
 <li><b>GET /api/winkels</b> : Voor het opvragen van alle winkels, inclusief springkastelen</li>
 <li><b>POST /api/winkels</b> : Opvragen van alle reservaties voor bepaalde winkel en datum</li>
-<li><b>GET /api/reservaties/"hash"</b> : Aanvraag van alle reservaties voor klant met e-mail adres hash. Hash is een MD5 hash van het email adres</li>
+<li><b>GET /api/reservaties/"hash"</b> : Aanvraag van alle reservaties voor klant met e-mail adres hash. Hash is een MD5 hash van het e-mail adres</li>
 <li><b>POST /api/reservatie</b> : Voor het aanmaken van een reservatie</li>
 </ul>
 
