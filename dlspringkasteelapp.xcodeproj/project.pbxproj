@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6FC97E8FAF67BC58AA399094 /* Pods_dlspringkasteelapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2F73B15B1774A7391F23C8A /* Pods_dlspringkasteelapp.framework */; };
+		884911941E2FD23300F8492C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884911931E2FD23300F8492C /* AppDelegate.swift */; };
+		884911991E2FD23300F8492C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 884911971E2FD23300F8492C /* Main.storyboard */; };
+		8849119C1E2FD23300F8492C /* dlspringkasteelapp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8849119A1E2FD23300F8492C /* dlspringkasteelapp.xcdatamodeld */; };
+		8849119E1E2FD23300F8492C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8849119D1E2FD23300F8492C /* Assets.xcassets */; };
+		884911A11E2FD23300F8492C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8849119F1E2FD23300F8492C /* LaunchScreen.storyboard */; };
+		884911AB1E2FD29200F8492C /* ReservationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884911AA1E2FD29200F8492C /* ReservationManager.swift */; };
+		884911AD1E2FD2AD00F8492C /* Reservatie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884911AC1E2FD2AD00F8492C /* Reservatie.swift */; };
+		884911AF1E2FD2C600F8492C /* Winkel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884911AE1E2FD2C600F8492C /* Winkel.swift */; };
+		884911B11E2FD2E400F8492C /* Springkasteel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884911B01E2FD2E400F8492C /* Springkasteel.swift */; };
+		884911B51E2FD32000F8492C /* Delegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884911B41E2FD32000F8492C /* Delegates.swift */; };
+		887056DB1E30E1F400201958 /* ZoekReservatieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887056DA1E30E1F400201958 /* ZoekReservatieViewController.swift */; };
+		887056DD1E30E3DC00201958 /* ReservatieTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887056DC1E30E3DC00201958 /* ReservatieTableViewController.swift */; };
+		887056DF1E311F7F00201958 /* WinkelSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887056DE1E311F7F00201958 /* WinkelSelectorViewController.swift */; };
+		887056E11E3131BC00201958 /* DatumSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887056E01E3131BC00201958 /* DatumSelectorViewController.swift */; };
+		888CF0821E3266F0004C7FFF /* UtilityServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888CF0811E3266F0004C7FFF /* UtilityServices.swift */; };
+		88D1D7B11E33D1E5005DA774 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D1D7B01E33D1E5005DA774 /* CustomTableViewCell.swift */; };
+		88F7B8AA1E31EDEB00F25BB1 /* VoorwaardenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F7B8A91E31EDEB00F25BB1 /* VoorwaardenViewController.swift */; };
+		88F7B8AC1E31F1F500F25BB1 /* HuurDetailSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F7B8AB1E31F1F500F25BB1 /* HuurDetailSplitViewController.swift */; };
+		88F7B8AE1E321BA800F25BB1 /* SpringKasteelTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F7B8AD1E321BA800F25BB1 /* SpringKasteelTableViewController.swift */; };
+		88F7B8B01E3231DA00F25BB1 /* ReserveerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F7B8AF1E3231DA00F25BB1 /* ReserveerViewController.swift */; };
+		88F7B8B21E323F1400F25BB1 /* BevestigingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F7B8B11E323F1400F25BB1 /* BevestigingViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		14117CA179C65E8D17576137 /* Pods-dlspringkasteelapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dlspringkasteelapp.release.xcconfig"; path = "Pods/Target Support Files/Pods-dlspringkasteelapp/Pods-dlspringkasteelapp.release.xcconfig"; sourceTree = "<group>"; };
+		1D24D6516CD8E591294E6003 /* Pods-dlspringkasteelapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dlspringkasteelapp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-dlspringkasteelapp/Pods-dlspringkasteelapp.debug.xcconfig"; sourceTree = "<group>"; };
+		884911901E2FD23300F8492C /* dlspringkasteelapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dlspringkasteelapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		884911931E2FD23300F8492C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		884911981E2FD23300F8492C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8849119B1E2FD23300F8492C /* dlspringkasteelapp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = dlspringkasteelapp.xcdatamodel; sourceTree = "<group>"; };
+		8849119D1E2FD23300F8492C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		884911A01E2FD23300F8492C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		884911A21E2FD23300F8492C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		884911AA1E2FD29200F8492C /* ReservationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReservationManager.swift; path = model/ReservationManager.swift; sourceTree = "<group>"; };
+		884911AC1E2FD2AD00F8492C /* Reservatie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Reservatie.swift; path = model/Reservatie.swift; sourceTree = "<group>"; };
+		884911AE1E2FD2C600F8492C /* Winkel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Winkel.swift; sourceTree = "<group>"; };
+		884911B01E2FD2E400F8492C /* Springkasteel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Springkasteel.swift; path = model/Springkasteel.swift; sourceTree = "<group>"; };
+		884911B41E2FD32000F8492C /* Delegates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Delegates.swift; path = model/Delegates.swift; sourceTree = "<group>"; };
+		887056DA1E30E1F400201958 /* ZoekReservatieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ZoekReservatieViewController.swift; path = controllers/ZoekReservatieViewController.swift; sourceTree = "<group>"; };
+		887056DC1E30E3DC00201958 /* ReservatieTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReservatieTableViewController.swift; path = controllers/ReservatieTableViewController.swift; sourceTree = "<group>"; };
+		887056DE1E311F7F00201958 /* WinkelSelectorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WinkelSelectorViewController.swift; path = controllers/WinkelSelectorViewController.swift; sourceTree = "<group>"; };
+		887056E01E3131BC00201958 /* DatumSelectorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DatumSelectorViewController.swift; path = controllers/DatumSelectorViewController.swift; sourceTree = "<group>"; };
+		888CF07C1E32667B004C7FFF /* dlspringkasteelapp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "dlspringkasteelapp-Bridging-Header.h"; sourceTree = "<group>"; };
+		888CF0811E3266F0004C7FFF /* UtilityServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UtilityServices.swift; path = model/UtilityServices.swift; sourceTree = "<group>"; };
+		88D1D7B01E33D1E5005DA774 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomTableViewCell.swift; path = UI/CustomTableViewCell.swift; sourceTree = "<group>"; };
+		88F7B8A91E31EDEB00F25BB1 /* VoorwaardenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VoorwaardenViewController.swift; path = controllers/VoorwaardenViewController.swift; sourceTree = "<group>"; };
+		88F7B8AB1E31F1F500F25BB1 /* HuurDetailSplitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HuurDetailSplitViewController.swift; path = controllers/HuurDetailSplitViewController.swift; sourceTree = "<group>"; };
+		88F7B8AD1E321BA800F25BB1 /* SpringKasteelTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SpringKasteelTableViewController.swift; path = controllers/SpringKasteelTableViewController.swift; sourceTree = "<group>"; };
+		88F7B8AF1E3231DA00F25BB1 /* ReserveerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReserveerViewController.swift; path = controllers/ReserveerViewController.swift; sourceTree = "<group>"; };
+		88F7B8B11E323F1400F25BB1 /* BevestigingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BevestigingViewController.swift; path = controllers/BevestigingViewController.swift; sourceTree = "<group>"; };
+		B2F73B15B1774A7391F23C8A /* Pods_dlspringkasteelapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dlspringkasteelapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8849118D1E2FD23300F8492C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FC97E8FAF67BC58AA399094 /* Pods_dlspringkasteelapp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		884911871E2FD23300F8492C = {
+			isa = PBXGroup;
+			children = (
+				884911921E2FD23300F8492C /* dlspringkasteelapp */,
+				884911911E2FD23300F8492C /* Products */,
+				B80590F02671352F8C7CAAF7 /* Pods */,
+				92ADA2494FE8FB65EC0C59AE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		884911911E2FD23300F8492C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				884911901E2FD23300F8492C /* dlspringkasteelapp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		884911921E2FD23300F8492C /* dlspringkasteelapp */ = {
+			isa = PBXGroup;
+			children = (
+				8849119D1E2FD23300F8492C /* Assets.xcassets */,
+				884911A21E2FD23300F8492C /* Info.plist */,
+				884911931E2FD23300F8492C /* AppDelegate.swift */,
+				884911971E2FD23300F8492C /* Main.storyboard */,
+				88D1D7AF1E33D1B6005DA774 /* UI */,
+				884911BA1E2FD55C00F8492C /* controllers */,
+				884911A91E2FD25000F8492C /* model */,
+				884911A81E2FD24200F8492C /* support */,
+			);
+			path = dlspringkasteelapp;
+			sourceTree = "<group>";
+		};
+		884911A81E2FD24200F8492C /* support */ = {
+			isa = PBXGroup;
+			children = (
+				8849119F1E2FD23300F8492C /* LaunchScreen.storyboard */,
+				8849119A1E2FD23300F8492C /* dlspringkasteelapp.xcdatamodeld */,
+			);
+			name = support;
+			sourceTree = "<group>";
+		};
+		884911A91E2FD25000F8492C /* model */ = {
+			isa = PBXGroup;
+			children = (
+				884911AA1E2FD29200F8492C /* ReservationManager.swift */,
+				884911AC1E2FD2AD00F8492C /* Reservatie.swift */,
+				884911AE1E2FD2C600F8492C /* Winkel.swift */,
+				884911B01E2FD2E400F8492C /* Springkasteel.swift */,
+				884911B41E2FD32000F8492C /* Delegates.swift */,
+				888CF07C1E32667B004C7FFF /* dlspringkasteelapp-Bridging-Header.h */,
+				888CF0811E3266F0004C7FFF /* UtilityServices.swift */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		884911BA1E2FD55C00F8492C /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				887056DA1E30E1F400201958 /* ZoekReservatieViewController.swift */,
+				887056DC1E30E3DC00201958 /* ReservatieTableViewController.swift */,
+				887056DE1E311F7F00201958 /* WinkelSelectorViewController.swift */,
+				887056E01E3131BC00201958 /* DatumSelectorViewController.swift */,
+				88F7B8A91E31EDEB00F25BB1 /* VoorwaardenViewController.swift */,
+				88F7B8AB1E31F1F500F25BB1 /* HuurDetailSplitViewController.swift */,
+				88F7B8AD1E321BA800F25BB1 /* SpringKasteelTableViewController.swift */,
+				88F7B8AF1E3231DA00F25BB1 /* ReserveerViewController.swift */,
+				88F7B8B11E323F1400F25BB1 /* BevestigingViewController.swift */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
+		88D1D7AF1E33D1B6005DA774 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				88D1D7B01E33D1E5005DA774 /* CustomTableViewCell.swift */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		92ADA2494FE8FB65EC0C59AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2F73B15B1774A7391F23C8A /* Pods_dlspringkasteelapp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B80590F02671352F8C7CAAF7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1D24D6516CD8E591294E6003 /* Pods-dlspringkasteelapp.debug.xcconfig */,
+				14117CA179C65E8D17576137 /* Pods-dlspringkasteelapp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8849118F1E2FD23300F8492C /* dlspringkasteelapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 884911A51E2FD23300F8492C /* Build configuration list for PBXNativeTarget "dlspringkasteelapp" */;
+			buildPhases = (
+				4127ADCD2B79ACBED4848F2D /* [CP] Check Pods Manifest.lock */,
+				8849118C1E2FD23300F8492C /* Sources */,
+				8849118D1E2FD23300F8492C /* Frameworks */,
+				8849118E1E2FD23300F8492C /* Resources */,
+				A60476ED7A2177F09B1CD1FF /* [CP] Embed Pods Frameworks */,
+				ACBC3609822FE2294E3FC0C4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dlspringkasteelapp;
+			productName = dlspringkasteelapp;
+			productReference = 884911901E2FD23300F8492C /* dlspringkasteelapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		884911881E2FD23300F8492C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Simon Jang";
+				TargetAttributes = {
+					8849118F1E2FD23300F8492C = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = BHAN6528P7;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8849118B1E2FD23300F8492C /* Build configuration list for PBXProject "dlspringkasteelapp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 884911871E2FD23300F8492C;
+			productRefGroup = 884911911E2FD23300F8492C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8849118F1E2FD23300F8492C /* dlspringkasteelapp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8849118E1E2FD23300F8492C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				884911A11E2FD23300F8492C /* LaunchScreen.storyboard in Resources */,
+				8849119E1E2FD23300F8492C /* Assets.xcassets in Resources */,
+				884911991E2FD23300F8492C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4127ADCD2B79ACBED4848F2D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A60476ED7A2177F09B1CD1FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dlspringkasteelapp/Pods-dlspringkasteelapp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACBC3609822FE2294E3FC0C4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dlspringkasteelapp/Pods-dlspringkasteelapp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8849118C1E2FD23300F8492C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88F7B8B01E3231DA00F25BB1 /* ReserveerViewController.swift in Sources */,
+				88F7B8AC1E31F1F500F25BB1 /* HuurDetailSplitViewController.swift in Sources */,
+				88D1D7B11E33D1E5005DA774 /* CustomTableViewCell.swift in Sources */,
+				884911AD1E2FD2AD00F8492C /* Reservatie.swift in Sources */,
+				887056DD1E30E3DC00201958 /* ReservatieTableViewController.swift in Sources */,
+				884911B51E2FD32000F8492C /* Delegates.swift in Sources */,
+				884911B11E2FD2E400F8492C /* Springkasteel.swift in Sources */,
+				888CF0821E3266F0004C7FFF /* UtilityServices.swift in Sources */,
+				88F7B8B21E323F1400F25BB1 /* BevestigingViewController.swift in Sources */,
+				887056DF1E311F7F00201958 /* WinkelSelectorViewController.swift in Sources */,
+				887056DB1E30E1F400201958 /* ZoekReservatieViewController.swift in Sources */,
+				884911AF1E2FD2C600F8492C /* Winkel.swift in Sources */,
+				88F7B8AA1E31EDEB00F25BB1 /* VoorwaardenViewController.swift in Sources */,
+				884911AB1E2FD29200F8492C /* ReservationManager.swift in Sources */,
+				8849119C1E2FD23300F8492C /* dlspringkasteelapp.xcdatamodeld in Sources */,
+				88F7B8AE1E321BA800F25BB1 /* SpringKasteelTableViewController.swift in Sources */,
+				884911941E2FD23300F8492C /* AppDelegate.swift in Sources */,
+				887056E11E3131BC00201958 /* DatumSelectorViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		884911971E2FD23300F8492C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				884911981E2FD23300F8492C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8849119F1E2FD23300F8492C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				884911A01E2FD23300F8492C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		884911A31E2FD23300F8492C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		884911A41E2FD23300F8492C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		884911A61E2FD23300F8492C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D24D6516CD8E591294E6003 /* Pods-dlspringkasteelapp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = BHAN6528P7;
+				INFOPLIST_FILE = dlspringkasteelapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = simon.jang.assignments.dlspringkasteelapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "dlspringkasteelapp/dlspringkasteelapp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		884911A71E2FD23300F8492C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14117CA179C65E8D17576137 /* Pods-dlspringkasteelapp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = BHAN6528P7;
+				INFOPLIST_FILE = dlspringkasteelapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = simon.jang.assignments.dlspringkasteelapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "dlspringkasteelapp/dlspringkasteelapp-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8849118B1E2FD23300F8492C /* Build configuration list for PBXProject "dlspringkasteelapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				884911A31E2FD23300F8492C /* Debug */,
+				884911A41E2FD23300F8492C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		884911A51E2FD23300F8492C /* Build configuration list for PBXNativeTarget "dlspringkasteelapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				884911A61E2FD23300F8492C /* Debug */,
+				884911A71E2FD23300F8492C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8849119A1E2FD23300F8492C /* dlspringkasteelapp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8849119B1E2FD23300F8492C /* dlspringkasteelapp.xcdatamodel */,
+			);
+			currentVersion = 8849119B1E2FD23300F8492C /* dlspringkasteelapp.xcdatamodel */;
+			path = dlspringkasteelapp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 884911881E2FD23300F8492C /* Project object */;
+}
